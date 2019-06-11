@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 2.8)
 # Name of the project (will be the name of the plugin)
 project(Cerberus)
 
-set(VLC_LIB_DIR "deps/libvlcpp/vlcpp")
+set(VLC_LIB_DIR ${CMAKE_SOURCE_DIR} "libvlcpp/vlcpp")
 
 if(MSVC)
     foreach(flag_var
@@ -24,7 +24,7 @@ file(GLOB SOURCE_FILES "src/*.cpp" "src/*.hpp")
 add_library(${PROJECT_NAME} SHARED ${SOURCE_FILES})
 
 # Include libvlcpp
-include_directories(${CMAKE_SOURCE_DIR} ${VLC_LIB_DIR})
+include_directories(${VLC_LIB_DIR})
 
 # Gives our library file a .node extension without any "lib" prefix
 set_target_properties(${PROJECT_NAME} PROPERTIES PREFIX "" SUFFIX ".node")

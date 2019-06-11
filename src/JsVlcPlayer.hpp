@@ -1,0 +1,8 @@
+//
+// Created by marcu on 6/11/2019.
+//
+
+#ifndef VENOBO_WC_JSVLCPLAYER_HPP
+#define VENOBO_WC_JSVLCPLAYER_HPP
+
+#endif //VENOBO_WC_JSVLCPLAYER_HPP

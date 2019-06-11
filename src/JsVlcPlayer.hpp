@@ -1,8 +1,0 @@
-//
-// Created by marcus-sa on 6/11/2019.
-//
-
-#ifndef CERBERUS_JSVLCPLAYER_HPP
-#define CERBERUS_JSVLCPLAYER_HPP
-
-#endif //CERBERUS_JSVLCPLAYER_HPP

@@ -1,4 +1,4 @@
-#include <napi.h>
+#include "napi.h"
 #include "CerberusPlayer.hpp"
 
 Napi::Object Init (Napi::Env env, Napi::Object exports) {

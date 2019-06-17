@@ -5,6 +5,8 @@
 #ifndef CERBERUS_PLAYER_HPP
 #define CERBERUS_PLAYER_HPP
 
+#include <napi.h>
+
 class CerberusPlayer : public Napi::ObjectWrap<CerberusPlayer> {
   public:
     static Napi::Object Init(Napi::Env env, Napi::Object exports);

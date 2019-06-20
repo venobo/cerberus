@@ -1,7 +1,7 @@
 {
-  "name": "cerberus",
+  "name": "@venobo/cerberus",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "license": "MIT",
   "typings": "./cerberus.d.ts",
   "scripts": {

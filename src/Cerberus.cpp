@@ -1,8 +1,8 @@
 #include "napi.h"
-#include "CerberusPlayer.hpp"
+#include "JsVlcMediaPlayer.hpp"
 
-Napi::Object Init (Napi::Env env, Napi::Object exports) {
-  CerberusPlayer::Init(env, exports);
+Napi::Object Init(Napi::Env env, Napi::Object exports) {
+  JsVlcMediaPlayer::Init(env, exports);
   return exports;
 }
 
